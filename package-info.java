@@ -25,9 +25,7 @@
  *
  */
 
-package us.illyohs.chickenfat.api.consumable;
+@API(owner = "chickenfat", apiVersion = "0.0.1", provides = "chickenfat|api")
+package us.illyohs.chickenfat.api;
 
-public interface IConsumableType
-{
-    ConsumableTypes getConsumableTypes();
-}
+import net.minecraftforge.fml.common.API;
